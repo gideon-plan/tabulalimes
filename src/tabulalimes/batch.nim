@@ -1,7 +1,7 @@
 ## batch.nim -- Batch ingest directory of PDFs.
 {.experimental: "strict_funcs".}
 import std/[os, strutils]
-import lattice, extract, ingest
+import basis/code/choice, extract, ingest
 
 type
   BatchResult* = object
